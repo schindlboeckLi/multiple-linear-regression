@@ -15,7 +15,7 @@ import mpl_toolkits.mplot3d.art3d as art3d
 #plt.rcParams['figure.figsize'] = (12.0, 9.0)
 
 # Preprocessing Input data
-data = np.loadtxt('regAgeWeight.txt', delimiter=',')
+data = np.loadtxt('AgeWeightHeight.txt', delimiter=',')
 #print(data)
 X_1 = data[:, 0]
 X_2 = data[:, 1]
